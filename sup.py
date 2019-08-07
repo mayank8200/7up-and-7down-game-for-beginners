@@ -7,8 +7,8 @@ while(a=="yes" or a=="YES" or a=="y" or a=="Y"):
 	credit=int(input("Enter your bidding amount:-"))
 	print("--------------------------------Fun Games-----------------------------------\n");
 	print("1:7 Up\n");
-	print("2:7 Down\n");
-	print("3:Equals 7\n");
+	print("2:Equals 7\n");
+	print("3:7 Down\n");
 	print("--------------------------------Fun Games-----------------------------------\n");
 	a=random.randint(min,max)
 	b=random.randint(min,max)
