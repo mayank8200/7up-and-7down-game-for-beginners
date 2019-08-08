@@ -2,8 +2,8 @@ import random
 max=6
 min=1
 account=0
-a="y"
-while(a=="yes" or a=="YES" or a=="y" or a=="Y"):
+a="Y"
+while(a=="YES" or a=="Y"):
 	credit=int(input("Enter your bidding amount:-"))
 	print("--------------------------------Fun Games-----------------------------------\n");
 	print("1:7 Up\n");
@@ -26,7 +26,7 @@ while(a=="yes" or a=="YES" or a=="y" or a=="Y"):
 
 	elif(ch==2):
 	 if(c==7):
-	  account=account+credit*2
+	  account=account+credit*5
 	  print("Conrats! You won\n")
 	 else:
 	  account=account-credit
@@ -44,7 +44,7 @@ while(a=="yes" or a=="YES" or a=="y" or a=="Y"):
 	else:
 		print("wrong input\n")
 	print("The balance is\n",account)
-	a=input("Do you want to play more:")
+	a=input("Do you want to play more:").upper()
 
 
 
