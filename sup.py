@@ -46,5 +46,5 @@ while(a=="YES" or a=="Y"):
 	print("The balance is\n",account)
 	a=input("Do you want to play more:").upper()
 
-
+//edited
 
